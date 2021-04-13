@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66413" started-at="2021-04-13T10:14:51 BST" finished-at="2021-04-13T10:15:58 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:trainline.RunParallel@c46bcd4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="66413" started-at="2021-04-13T10:14:51 BST" finished-at="2021-04-13T10:15:58 BST">
+      <class name="trainline.RunParallel">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:trainline.RunParallel@c46bcd4]" name="setUpClass" is-config="true" duration-ms="151" started-at="2021-04-13T10:14:51 BST" finished-at="2021-04-13T10:14:52 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:trainline.RunParallel@c46bcd4]" name="runScenario" duration-ms="65980" started-at="2021-04-13T10:14:52 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-13T10:15:58 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify different passenger search combinations - happy path"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trainline home page search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:trainline.RunParallel@c46bcd4]" name="runScenario" duration-ms="64561" started-at="2021-04-13T10:14:52 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-13T10:15:56 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify different passenger search combinations - other combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trainline home page search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:trainline.RunParallel@c46bcd4]" name="runScenario" duration-ms="64513" started-at="2021-04-13T10:14:52 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-13T10:15:56 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify different passenger search combinations - other combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trainline home page search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:trainline.RunParallel@c46bcd4]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2021-04-13T10:15:58 BST" finished-at="2021-04-13T10:15:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- trainline.RunParallel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
