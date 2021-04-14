@@ -11,6 +11,12 @@ import trainline.framework.ParentScenario;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
+import java.net.MalformedURLException;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
+
 public class StepDefs extends ParentScenario {
 
     @Given("^passenger is in home page$")
@@ -59,12 +65,11 @@ public class StepDefs extends ParentScenario {
     public void search_for_trains() throws Throwable {
         homePage.search();
     }
-
+   
     @Before
-    public void beforeScenario() {
+    public void beforeScenario() throws MalformedURLException {
         startBrowser();
     }
-
 
 
     @After

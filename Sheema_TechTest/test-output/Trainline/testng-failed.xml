@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trainline]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="portNo" value="5555"/>
+    <classes>
+      <class name="trainline.RunParallel">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- trainline.RunParallel -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="portNo" value="4545"/>
+    <classes>
+      <class name="trainline.RunParallel">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- trainline.RunParallel -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Trainline] -->

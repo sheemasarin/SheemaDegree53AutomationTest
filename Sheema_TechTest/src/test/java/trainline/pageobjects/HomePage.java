@@ -2,6 +2,8 @@ package trainline.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import trainline.framework.ParentPage;
 
 public class HomePage extends ParentPage {
